@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/nav_list"
+            android:icon="@drawable/ic_sensors"
+            android:title="@string/menu_list" />
+        <item
+            android:id="@+id/nav_temp"
+            android:icon="@mipmap/temp"
+            android:title="@string/menu_temp" />
+        <item
+            android:id="@+id/nav_humd"
+            android:icon="@mipmap/humd"
+            android:title="@string/menu_humid" />
+        <item
+            android:id="@+id/nav_proximity"
+            android:icon="@mipmap/proximity"
+            android:title="@string/menu_proximity" />
+        <item
+            android:id="@+id/nav_magnetic"
+            android:icon="@mipmap/magnetic"
+            android:title="@string/menu_magnetic" />
+
+        <item
+            android:id="@+id/nav_compass"
+            android:icon="@mipmap/compass2"
+            android:title="@string/menu_compass" />
+    </group>
+</menu>

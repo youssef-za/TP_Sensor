@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.sensor.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.sensor.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.sensor.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.example.sensor.ui.share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+    <fragment
+        android:id="@+id/nav_list"
+        android:name="com.example.sensor.ui.sensors.ListSonsorsFragment"
+        android:label="fragment_listsonsors_list"
+        tools:layout="@layout/fragment_listsonsors_list" />
+    <fragment
+        android:id="@+id/nav_temp"
+        android:name="com.example.sensor.ui.thermometer.ThermoFragment"
+        android:label="fragment_thermo"
+        tools:layout="@layout/fragment_thermo" />
+    <fragment
+        android:id="@+id/nav_humd"
+        android:name="com.example.sensor.ui.humidity.HumidityFragment"
+        android:label="fragment_humidity"
+        tools:layout="@layout/fragment_humidity" />
+    <fragment
+        android:id="@+id/nav_proximity"
+        android:name="com.example.sensor.ui.proximity.ProximityFragment"
+        android:label="fragment_proximity"
+        tools:layout="@layout/fragment_proximity" />
+    <fragment
+        android:id="@+id/nav_magnetic"
+        android:name="com.example.sensor.ui.magnetic.MagneticFragment"
+        android:label="fragment_magnetic"
+        tools:layout="@layout/fragment_magnetic" />
+    <fragment
+        android:id="@+id/nav_compass"
+        android:name="com.example.sensor.ui.compass.CompassFragment"
+        android:label="fragment_compass"
+        tools:layout="@layout/fragment_compass" />
+</navigation>
